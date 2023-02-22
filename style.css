@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Gruppo");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+body {
+    background-color: #2B2B2B;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    margin-top: 0;
+    font-size: 14pt;
+}
+
+#menu {
+    width: 100%;
+    border-bottom: 3px solid rebeccapurple;
+    height: 50px;
+    font-family: Gruppo, sans-serif;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 450px;
+    margin: 0 auto;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 36px;
+    padding-top: 14px;
+    text-align: center;
+}
+
+#menu a:hover {
+    background-color: mediumpurple;
+}
+
+#main {
+    width: 600px;
+
+    margin: 200px auto;
+
+    border: 3px solid rebeccapurple;
+    border-radius: 25px;
+
+    text-align: center;
+}
+
+#main a {
+    color: mediumpurple;
+}
+
+#main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#main h1 {
+    font-family: Gruppo, sans-serif;
+}
